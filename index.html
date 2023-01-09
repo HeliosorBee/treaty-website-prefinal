@@ -11,7 +11,7 @@ Date Last Modified: 12/11/2022
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Treaty Two Home-page</title>
+    <title>Treaty Two Home Page</title>
     <!--
       The first link changes the website logo in the browser.
 
@@ -24,6 +24,20 @@ Date Last Modified: 12/11/2022
       href="images/treaty2logo.png"
       alt="An image of Treaty 2 territory" />
     <link rel="stylesheet" href="stylesheets/main.css" />
+
+    <style>
+      #treaty-two-description {
+        width: 33.5%;
+      }
+
+      .treaty-territory {
+        width: 0;
+      }
+      section h2 {
+        width: 105%;
+        margin-bottom: 39px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -43,7 +57,7 @@ Date Last Modified: 12/11/2022
     </header>
     <main>
       <section>
-        <div>
+        <div id="treaty-two-description">
           <h2>What is Treaty Two</h2>
           <!--
           This paragraph is displaying information from the linked website.
@@ -51,20 +65,21 @@ Date Last Modified: 12/11/2022
           words/names in the p tag.
         -->
           <p>
-            <span id="description">Treaty Two</span> Known as the “Manitoba Post
-            Treaty” was made on August 21, 1871 at Manitoba Post as they were
-            also present and participating in the making of Treaty One. Treaty
-            two was made by five Chiefs: <span class="chiefs">Mekis</span>,
+            Treaty Two known as the “Manitoba Post Treaty” was made on August
+            21, 1871 at Manitoba Post as they were also present and
+            participating in the making of Treaty One. Treaty two was made by
+            five Chiefs: <span class="chiefs">Mekis</span>,
             <span class="chiefs">Francois (Broken Fingers)</span>,
             <span class="chiefs">Ma-sah-kee-yash</span>,
             <span class="chiefs">Keweetahquinnayash</span> and
             <span class="chiefs">Sou-sonce</span>.
+            <br />
             <a href="http://treaty2.com/index.php/treaty-no-2/" target="_blank">
               - Treaty No.2
             </a>
           </p>
         </div>
-        <div>
+        <div class="treaty-territory">
           <!--
         This is a figure, dispaying an image and a figcaption that has
         text discribing what the user should be looking at.
