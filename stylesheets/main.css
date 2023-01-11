@@ -160,6 +160,9 @@ span {
 }
 
 footer {
+  background-color: #212121;
+  color: #eef0ea;
+
   display: inline-block;
 
   width: 100%;
