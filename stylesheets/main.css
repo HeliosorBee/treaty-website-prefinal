@@ -121,17 +121,6 @@ section div {
   width: 25%;
 
   padding: 1.5% 3%;
-
-  background-color: #ededed;
-  color: #121212;
-}
-
-section figure {
-  display: inline-block;
-
-  width: 75%;
-
-  margin-left: 5%;
 }
 
 figcaption {
