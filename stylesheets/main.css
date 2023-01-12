@@ -188,13 +188,6 @@ footer h3 {
   color: #cccccc;
 }
 
-footer a:hover,
-footer a:focus {
-  color: #ededed;
-
-  font-weight: bolder;
-}
-
 footer a:visited {
   color: #cccccc;
 
@@ -211,4 +204,8 @@ footer {
 
   margin-top: 50px;
   text-align: center;
+}
+
+footer a {
+  color: #cccccc;
 }
