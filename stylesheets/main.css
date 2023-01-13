@@ -45,8 +45,6 @@ nav li {
   display: inline-block;
 
   margin: 5px 0;
-
-  float: right;
 }
 
 nav a {
@@ -159,7 +157,9 @@ span {
   font-style: italic;
 }
 
-.reference-links {
+.reference-links,
+.contact-me,
+.contact-school {
   margin-top: 25%;
   margin-bottom: 25%;
 
