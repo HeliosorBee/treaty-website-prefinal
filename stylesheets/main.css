@@ -95,7 +95,7 @@ h1 {
 h2 {
   padding: 20px 0;
 
-  background-color: #83706c;
+  background-color: #5e4e47;
   color: #ededed;
 
   font-size: 2.8rem;
@@ -167,19 +167,35 @@ span {
   text-decoration: none;
 }
 
+#content-boxes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 #contacts,
 #references,
 #honorable-mentions {
-  float: left;
-  margin-top: 5%;
-  margin-left: 8%;
+  padding: 5% 4%;
 
-  width: 23%;
+  -webkit-box-flex: 1;
+
+  -webkit-flex: 1 200px;
+
+  -moz-box-flex: 1;
+
+  -ms-flex: 1 200px;
+
+  flex: 1 200px;
 }
 
 #copyright {
-  margin-top: 25%;
-
   background-color: #282326;
 }
 
