@@ -26,18 +26,42 @@ Date Last Modified: 12/11/2022
     <link rel="stylesheet" href="stylesheets/main.css" />
 
     <style>
+      /* 
+        This gives the id of treaty-two-description the 
+        width of 33.5%
+      */
       #treaty-two-description {
         width: 33.5%;
       }
 
+      /* 
+        This gives the id of treaty-territory the 
+        width of 0
+      */
       .treaty-territory {
         width: 0;
       }
 
+      /* 
+        This gives the id of treaty-map a margin top
+        of 15 pixels
+      */
       #treaty-map {
         margin-top: 15px;
       }
 
+      /* 
+        This gives the id of treaty-interactive-map 
+        a float with the value of none.
+      */
+      #treaty-interactive-map {
+        float: none;
+      }
+
+      /* 
+        This gives the section h2 in this page a
+        width of 105% and a margin-bottom of 39 pixels.
+      */
       section h2 {
         width: 105%;
         margin-bottom: 39px;
@@ -99,16 +123,16 @@ Date Last Modified: 12/11/2022
               alt="an image of Treaty 2 territory, with the names of rivers, and places"
               width="650" />
           </figure>
+        </div>
 
-          <div>
-            <iframe
-              id="treaty-map"
-              src="https://native-land.ca/api/embed/embed.html?maps=treaties&name=treaty-1,treaty-2 "
-              width="646"
-              height="400"
-              alt="map of treaty 1 and 2 within Canada, courtesy Native Land Digital / Native-Land.ca, 
+        <div id="treaty-interactive-map">
+          <iframe
+            id="treaty-map"
+            src="https://native-land.ca/api/embed/embed.html?maps=treaties&name=treaty-1,treaty-2 "
+            width="1075"
+            height="600"
+            alt="map of treaty 1 and 2 within Canada, courtesy Native Land Digital / Native-Land.ca, 
             taken from thecanadianencyclopedia.ca"></iframe>
-          </div>
         </div>
       </section>
     </main>

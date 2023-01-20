@@ -17,6 +17,14 @@ html {
   font-size: 62.5%;
 }
 
+/* 
+  This gives the body of all pages a background color
+  of #ededed, and a text color of #121212.
+
+  the font size is 1.8rem, and the chosen font family
+  of Georgia, Times New Roman, Times, serif. if one doesn't work 
+  then it moves down the line for use.
+*/
 body {
   background-color: #ededed;
   color: #121212;
@@ -25,11 +33,25 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* 
+  This gives the nav the position of relative and the background
+  color of #a9af7e.
+*/
 nav {
   position: relative;
   background-color: #a9af7e;
 }
 
+/* 
+  This is displayed as inline-block.
+
+  This gives the nav ul a position of absolute,
+  bottom 0 and right 5%.
+
+  it's give a padding of 0.
+
+  the list style is none.
+*/
 nav ul {
   display: inline-block;
 
@@ -42,12 +64,29 @@ nav ul {
   list-style: none;
 }
 
+/* 
+  This displays the nav li as a inline-block
+  and gives it a margin of 5px on top and 0 to 
+  the sides 
+*/
 nav li {
   display: inline-block;
 
   margin: 5px 0;
 }
 
+/* 
+  This displays the nav a as an inline-block,
+  giving it a height of 95%
+
+  padding 10px to top and 20px to the sides.
+
+  given a font-weight of bold,
+  and text is aligned to the center.
+
+  text decoration is set to none, so no underline
+  is displayed.
+*/
 nav a {
   display: inline-block;
   height: 95%;
@@ -62,6 +101,11 @@ nav a {
 
   text-decoration: none;
 }
+
+/* 
+  Nav a hover and focus are given the background 
+  color of #c5d8a4 and the text color of #121212
+*/
 nav a:hover,
 nav a:focus {
   background-color: #c5d8a4;
@@ -92,6 +136,17 @@ h1 {
   text-shadow: #121212 1px 1px 1.5px;
 }
 
+/*
+  This will give the h2 the padding of 20px on top
+  and 0 of the sides.
+
+  the background color is #5e4e47 and the text color
+  of #ededed.
+
+  the font size is 2.8rem, the text is aligned to the 
+  center, and the text shadow is the
+  color of #121212. 1px by 1px, and 1.5px of blur.
+*/
 h2 {
   padding: 20px 0;
 
